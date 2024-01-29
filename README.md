@@ -10,6 +10,7 @@
 > 
 > gcc-8.4.0 -march=rv64imafdcv0p7 main.c -O3 -ftree-vectorize  -fopt-info-vec -c -S -o main.asm
 
+
 > #### No auto-vectorization 
 > - **Generates binary**
 > 
@@ -17,6 +18,7 @@
 > - **Generates assembly**
 > 
 > gcc-8.4.0 -march=rv64imafdcv0p7 main.c -O3 -ftree-vectorize  -fopt-info-vec -c -S -o main.asm
+
 
 > #### Using Pragma openMP 
 > ##### Using this pragma before loops in the code 
