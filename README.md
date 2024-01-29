@@ -17,6 +17,7 @@
 - Using Pragma openMP 
 ### Using this pragma before loops in the code 
 #pragma omp simd 
+/p
 #pragma omp simd aligned(a,b,....:32)
 
 ### Generates binary 
